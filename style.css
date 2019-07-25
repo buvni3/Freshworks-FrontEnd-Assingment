@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(country%20explorer.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]
+{
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]
+{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    left: -5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+input[type="submit"]:hover{
+    background: #ff5722;
+}
